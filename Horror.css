@@ -73,7 +73,11 @@ color: #555D50 !important;
 
 
 .navbar-brand img{
-width: 8rem !important;
-height: 5rem !important;
+width: 4rem !important;
+height: 3rem !important;
 
 }
+
+.navbar-brand {
+    font-size: 2rem !important;
+    }
