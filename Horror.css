@@ -1,7 +1,6 @@
 .First-part{
 
 background-color: #0D0907 !important;
-color: white   !important;
 width: 100%    !important;
 height: 5%   !important;
 }
@@ -14,7 +13,7 @@ li{
 
   .social li a{
 text-decoration: no;
-color: white;
+
 
 
 }
