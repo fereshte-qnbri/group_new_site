@@ -13,6 +13,7 @@ li{
 
   .social li a{
 text-decoration: no;
+color: #555D50;
 
 
 
@@ -21,7 +22,7 @@ text-decoration: no;
 .social{
 
     height: 3rem !important ;
-  
+    color: #555D50;
     align-items: center !important;
 }
 
