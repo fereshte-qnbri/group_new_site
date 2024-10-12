@@ -63,7 +63,7 @@ color: #555D50 !important;
 
 
 .contact  {
-    color: #555D50 !important;
+    color:#2C3227 !important;
     height: 3rem !important ;
     align-items: center !important;
 
@@ -86,6 +86,12 @@ height: 4rem !important;
 
     .navbar{
        
-       background-color: #666362 !important; 
+       background-color:#2C3227 !important; 
 
+    }
+
+    .btn-secondary{
+        background-color: #0a0502;
+
+        width: 9rem;
     }
