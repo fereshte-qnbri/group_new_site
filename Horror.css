@@ -1,0 +1,58 @@
+.First-part{
+
+background-color: #0D0907 !important;
+color: white   !important;
+width: 100%    !important;
+height: 5%   !important;
+}
+
+
+li{
+
+    list-style: none;
+}
+
+  .social li a{
+text-decoration: no;
+color: white;
+
+
+}
+
+.social{
+
+    height: 3rem !important ;
+  
+    align-items: center !important;
+}
+
+
+
+
+.social ul{
+
+    height: 3rem !important ;
+  
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+.contact ul {
+
+    height: 3rem !important ;
+  
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+
+
+.contact  {
+
+    height: 3rem !important ;
+    align-items: center !important;
+
+
+}
