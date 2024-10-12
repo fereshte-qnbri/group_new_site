@@ -1,4 +1,17 @@
-.First-part{
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sixtyfour+Convergence&display=swap');
+ 
+ 
+*{
+
+    font-family: "Fredoka", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 93.5;
+}
+
+
+ .First-part{
 
 background-color: #0D0907 !important;
 width: 100%    !important;
@@ -13,7 +26,7 @@ li{
 
   .social li a{
 text-decoration: no;
-color: #555D50;
+color: #555D50 !important;
 
 
 
@@ -22,7 +35,7 @@ color: #555D50;
 .social{
 
     height: 3rem !important ;
-    color: #555D50;
+    color: #555D50 !important;
     align-items: center !important;
 }
 
@@ -50,7 +63,7 @@ color: #555D50;
 
 
 .contact  {
-
+    color: #555D50 !important;
     height: 3rem !important ;
     align-items: center !important;
 
