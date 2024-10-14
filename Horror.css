@@ -86,12 +86,46 @@ height: 4rem !important;
 
     .navbar{
        
-       background-color:#2C3227 !important; 
+       background-color:#2B2B2B !important; 
+       color: #EDF0F2 !important;
+       font-weight: bold !important;
+
+    }
+
+
+    .navbar a{
+       
+        background-color:#2B2B2B !important; 
+        color: #EDF0F2 !important;
+       
+ 
+     }
+
+
+
+    .M-nav a {
+        color: #EDF0F2 !important;
 
     }
 
     .btn-secondary{
         background-color: #0a0502;
 
-        width: 9rem;
+        width: 9rem !important;
     }
+
+    .dropdown-item{
+
+border-bottom: hsl(86, 20%, 93%) solid 0.125rem  !important;
+color: #0a0502 !important;
+
+    }
+
+    .dropdown-menu{
+background-color:#2B2B2B!important;
+padding: 0.5rem !important;
+    }
+
+
+
+    
