@@ -14,8 +14,11 @@
  .First-part{
 
 background-color: #0D0907 !important;
-width: 100%    !important;
-height: 5%   !important;
+display: flex !important;
+justify-content: space-between !important;
+flex-direction: row !important;
+align-items: center !important;
+height: 3rem !important;
 }
 
 
@@ -24,7 +27,9 @@ li{
     list-style: none;
 }
 
-  .social li a{
+
+
+   .social li a{
 text-decoration: no;
 color: #555D50 !important;
 
@@ -32,44 +37,46 @@ color: #555D50 !important;
 
 }
 
+
+
 .social{
 
-    height: 3rem !important ;
+   
     color: #555D50 !important;
-    align-items: center !important;
-}
-
+    display: flex !important;
+    flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+} 
 
 
 
 .social ul{
+    
+    display: flex !important;
+    flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+}
 
-    height: 3rem !important ;
-  
-    align-items: center !important;
+
+.contact  {
+  display: flex !important;
+  flex-direction: row !important;
+    align-items: end !important;
     justify-content: center !important;
+
 }
 
 
 .contact ul {
-
-    height: 3rem !important ;
-  
+display: flex !important;
+flex-direction: row !important;
     align-items: center !important;
     justify-content: center !important;
 
 }
 
-
-
-.contact  {
-    color:#2C3227 !important;
-    height: 3rem !important ;
-    align-items: center !important;
-
- 
-
-}
 
 
 .navbar-brand img{
@@ -127,5 +134,101 @@ padding: 0.5rem !important;
     }
 
 
+/* 
+    .top-photo img{
+height: 35rem !important;
+width: 100%;
+overflow: hidden;
+object-fit: cover;
+    } */
 
-    
+
+
+
+    @media(max-width:768px){
+        .First-part{
+
+
+            background-color: #0D0907 !important;
+            display: flex !important;
+            justify-content:space-between !important;
+            flex-direction: row !important;
+            align-items: center !important;
+            height: 2rem !important;
+            margin-right: 0 !important;
+            padding: 0;
+            gap: 6rem !important;
+
+
+
+        }
+
+        .social{
+
+ 
+            color: #555D50 !important;
+            display: flex !important;
+            flex-direction: column !important;
+                align-items:flex-end !important;
+                justify-content: center !important;
+                text-align: left;
+                font-size: 0.125rem !important;
+        } 
+        
+        
+        
+        .social ul{
+           
+            display: flex !important;
+            flex-direction:column !important;
+                align-items:flex-end !important;
+                justify-content: center !important;
+                font-size: 0.75rem !important;
+                gap: 0 !important;
+                margin: 0 !important;
+        
+
+              
+        }
+        
+        
+        .contact  {
+          display: flex !important;
+          flex-direction: column !important;
+            align-items: center!important;
+            justify-content: start !important;
+            gap: 0 !important;
+        
+        }
+        
+        
+        .contact ul {
+        display: flex !important;
+        flex-direction: column !important;
+            align-items: start!important;
+            justify-content: center !important;
+            font-size: 0.6rem !important;
+            gap: 0 !important;
+           margin-left: 0 !important;
+        text-align: left !important;
+        }
+
+        .z-cotact{
+            width:10rem !important;
+background-color: aqua;
+margin-left: 0 !important;
+padding: 0 !important;
+        }
+
+
+        .z-social{
+
+width: 90rem !important;
+margin-right: 0 !important;
+padding: 0 !important;
+        }
+
+
+
+    }
+     
