@@ -89,6 +89,7 @@ background-color: #0D0907 !important;
         height: 4rem !important;
         font-size: 2rem !important;
         font-weight: bold;
+       
         
         
         }
@@ -116,7 +117,122 @@ background-color: #0D0907 !important;
         }
 
 
+        
 
+        .top-photo img{
+           object-fit :cover;
+          
+        overflow: hidden;
+        
+
+
+        }
+
+
+        
+
+
+        .top-photo h2{
+           font-size: 5rem !important;
+           color: #EDF0F2 !important;
+    
+        }
+
+
+        .top-photo a{
+           text-decoration: none;
+         }
+ 
+
+
+
+
+
+
+        .toptex{
+
+
+            position: absolute !important;
+
+            top:8rem;
+            left: 15rem;
+
+
+
+        } 
+
+
+
+
+        .top-photo{
+
+            position: relative !important;
+        }
+
+
+
+
+        .para-top{
+            font-size: 2rem !important;
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+
+    .toptex{
+
+
+        position: absolute !important;
+
+        top:1rem;
+        left: 2rem;
+        font-size:0.5rem !important;
+
+
+
+    } 
+
+    .top-photo h2{
+        font-size: 1rem !important;
+        color: #EDF0F2 !important;
+ 
+     }
+
+
+
+     .top-photo a{
+        text-decoration: none;
+        font-size:0.5rem !important;
+      }
+
+
+      .para-top{
+        font-size: 0.5rem !important;
+
+
+
+    }
+
+
+
+
+}
 
 
 
