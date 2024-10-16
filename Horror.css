@@ -320,6 +320,283 @@ background-color: #0D0907 !important;
 
 
 
+        .fofo{
+            margin-top: 0.5rem;
+            /* background:url('https://graveplotpodcast.com/wp-content/uploads/2016/08/Screen-Shot-2016-08-16-at-5.29.14-AM.jpg') center no-repeat; */
+            /* background-size: cover; */
+
+            background-color: rgba(13, 9, 8, 0.89);
+
+
+
+        }
+
+
+
+
+        .footer{
+            flex-direction: column !important;
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            gap:2rem;
+           
+
+
+
+        }
+
+        .footerone{
+        
+         flex-direction: row !important;
+         display: flex !important;
+         justify-content: space-between !important;
+         align-items: center !important;
+         gap: 0 !important;
+         gap: 2rem !important;
+         width: 100%;
+         margin-top: 6rem !important;
+
+         color: #0D0907 !important;
+
+
+
+        }
+
+
+
+        .box-two-list{
+            list-style: none;
+            line-height:3rem !important;
+
+
+
+
+        }
+
+
+        .box-one p {
+
+            width: 15rem !important;
+            text-wrap: wrap !important;
+            text-align:left;
+
+
+
+
+        }
+
+          .end-icons{
+            display: flex !important;
+            flex-direction: row !important;
+            justify-content:flex-start !important;
+            align-items: center !important;
+            gap: 1rem;
+            color: #0D0907;
+        
+
+          }
+
+
+
+
+          .end-icons a{
+            color: #0D0907;
+          
+        
+
+          }
+
+
+          .end-icons a{
+
+          width: 2rem !important;
+          height: 2rem !important;
+            border: #0d0907ee solid 0.125rem !important;
+            border-radius: 0.5rem !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+
+        
+
+
+
+
+
+
+
+
+        .box-three a {
+
+            text-decoration: none;
+            transition:font-weight  0.3s   ease;
+            color: #0D0907 !important;
+            font-weight: lighter;
+          
+            
+        }
+
+        .box-three p{
+          
+    
+            color: #2B2B2B;
+          
+            
+        }
+
+
+      .box-three a:hover {
+       font-weight: bold;
+       box-shadow: 3px 3px #2b2b2b00, -1em 0 .4em #2b2b2b00;
+       
+            
+        }
+
+        .box-four{
+
+            display: flex  !important;
+            justify-content : flex-start!important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            
+           
+        }
+
+        
+        .box-four p {
+
+            width:15rem;
+
+
+        
+           
+        }
+
+        .input-group-lg{
+           
+            width: 20rem !important;
+            height: 5rem !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2b2b2b00 !important;
+
+          
+
+
+        }
+
+
+
+
+        .buttonn{
+            height:3rem !important;
+            width:8.5rem !important;
+            border-radius: 0.5rem !important;
+            position: absolute;
+            right:5rem !important;
+           /* margin-top: 1rem !important;
+           margin-bottom:1rem !important; */
+           background-color: hsl(0, 0%, 0%);
+           color: #EDF0F2;
+            
+
+        
+
+        }
+
+        .form-control{
+
+          background-color: rgba(128, 255, 0, 0) !important;
+            width: 20rem !important;
+            height: 4rem !important;
+            border-radius: 0.5rem !important;
+            position: relative;
+
+        }
+
+
+
+        .footertwo{
+            border-top: hwb(204 93% 5% / 0.144) solid 0.125rem;
+          
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    gap:27rem;
+    color: #0D0907;
+
+
+
+
+        }
+
+
+
+        .start-button{
+          
+            width: auto;
+            /* margin-left: 94rem; */
+
+
+
+        }
+
+
+
+        .start-button  .btn{
+            background-color: #000000;
+            color: #EDF0F2;
+
+
+        }
+
+
+        
+        .start-button      .btn:hover{
+            
+            background-color: #2B2B2B;
+            color: #EDF0F2;
+
+
+
+        }
+
+
+
+
+        .texts-footer{
+            transform:translateX(25rem) !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height:1.5rem;
+            width: 18rem;
+           margin-top: 1.5rem;
+
+        }
+
+
+        .texts-footer a {
+          text-decoration: none;
+         color: hsl(0, 100%, 100%);
+        }
+
+
+
+    
+
+
+    
+
+
+
 
 @media(max-width:576px){
 
@@ -371,6 +648,11 @@ background-color: #0D0907 !important;
 
         
     }
+
+
+
+
+    
 
 
 
