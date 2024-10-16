@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- نوبار سرمه ای -->
+      <div class="p-3 bg-dark text-white">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center"
+        >
+          <!-- سمت چپ -->
+          <div>
+            <!-- تلفن و شماره -->
+            <div class="d-inline mx-1">
+              <svg
+                width="20px"
+                height="20px"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z"
+                  fill="#fff"
+                />
+              </svg>
+              <span>+989378455</span>
+            </div>
+            <!-- ایمیل و ایکن  -->
+            <div class="d-inline mx-1">
+              <svg
+                fill="#000000"
+                width="20px"
+                height="20px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="ms-2"
+              >
+                <path
+                  d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"
+                  fill="#fff"
+                />
+              </svg>
+              <span>fm@gmail.com</span>
+            </div>
+            <!-- ساعت -->
+            <div class="d-inline mx-1">
+              <svg
+                width="20px"
+                height="20px"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                  fill="#fff"
+                />
+              </svg>
+              <span>Mon - Fri : 09 AM - 09 PM</span>
+            </div>
+          </div>
+          <!-- سمت راست -->
+          <div class="d-flex align-items-center gap-3">
+            <img src="facebook.svg" alt="facebook" width="20px" height="20px" />
+            <img src="twitter.svg" alt="twitter" width="20px" height="20px" />
+            <img src="linkedin.svg" alt="linkedin" width="20px" height="20px" />
+            <img
+              src="instagram.svg"
+              alt="instagram"
+              width="20px"
+              height="20px"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- نوبار اصلی -->
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- لوگو -->
+          <a class="navbar-brand"
+            ><img src="./download.jpg" alt="logo" width="100" />
+            <span class="display-6" style="font-family: fantasy">
+              movis dram</span
+            ></a
+          >
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Serial</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >menu</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">dram</a></li>
+                <li><a class="dropdown-item" href="#">comedy</a></li>
+                <li><a class="dropdown-item" href="#">romance</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">scary</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">anime</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Artists</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-primary">Lorem ipsum</button>
+        </div>
+      </nav>
+    </header>
+    <main class="overflow-x-hidden mb-5">
+      <!-- بخش عکس -->
+      <section
+        style="
+          height: 400px;
+          width: 100vw;
+          background: url(./photo_2024-10-12_20-23-11.jpg) center center
+            no-repeat;
+          background-size: cover;
+        "
+        class="position-relative"
+      >
+        <!-- تایتل -->
+        <span
+          class="position-absolute"
+          style="
+            top: 5%;
+            left: 10%;
+            z-index: 99;
+            color: aliceblue;
+            font-size: 100px;
+            font-family: fantasy;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+          "
+          >movis dram</span
+        >
+        <!-- منوها -->
+        <nav class="position-absolute" style="top: 37%; left: 10%">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item">
+              <a
+                class="text-decoration-none text-white"
+                style="font-size: 20px"
+                href="#"
+                >Menu 1/</a
+              >
+            </li>
+            <li class="breadcrumb-item">
+              <a
+                class="text-decoration-none text-white"
+                style="font-size: 20px"
+                href="#"
+                >Menu 2/</a
+              >
+            </li>
+            <li
+              class="breadcrumb-item active text-info"
+              style="font-size: 20px"
+              aria-current="page"
+            >
+              Menu 3
+            </li>
+          </ol>
+        </nav>
+      </section>
+      <!-- بخش فیلم ها -->
+      <section class="w-100 d-flex align-items-end container pt-5 gap-5">
+        <!-- سمت چپ -->
+        <div class="w-50 pt-5 ps-5">
+          <!-- متن ها -->
+          <div>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <p class="my-5">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
+          <!-- فرم -->
+          <form class="form-inline">
+            <label class="sr-only" for="inlineFormInputName2">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+          
+            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+            <div class="input-group mb-2 mr-sm-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+            </div>
+          
+            <div class="form-check mb-2 mr-sm-2">
+              <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+              <label class="form-check-label" for="inlineFormCheck">
+                Remember me
+              </label>
+            </div>
+            <form class="form-inline">
+                <label class="sr-only" for="inlineFormInputName2">Name</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+              
+                <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                <div class="input-group mb-2 mr-sm-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                </div>
+              
+                <div class="form-check mb-2 mr-sm-2">
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Remember me
+                  </label>
+                </div>
+                 </main>
+    <footer class="bg-dark mt-3">
+      <section class="container py-4">
+        <div class="d-flex gap-5">
+          <!-- ستون اول -->
+          <div style="width: 35vw">
+            <!-- متن بزرگ -->
+            <p class="text-white text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Blanditiis accusamus
+              labore aliquid ipsam assumenda voluptate commodi dolorum culpa
+              consectetur illum?
+            </p>
+            <!-- عکس مدیا ها -->
+            <div class="d-flex align-items-center gap-3">
+              <img
+                src="facebook.svg"
+                alt="facebook"
+                width="20px"
+                height="20px"
+              />
+              <img src="twitter.svg" alt="twitter" width="20px" height="20px" />
+              <img
+                src="linkedin.svg"
+                alt="linkedin"
+                width="20px"
+                height="20px"
+              />
+              <img
+                src="instagram.svg"
+                alt="instagram"
+                width="20px"
+                height="20px"
+              />
+            </div>
+          </div>
+          <!-- ستون دوم -->
+          <div style="width: 32vw">
+            <h5 class="text-white mb-3">Lorem ipsum</h5>
+            <div class="my-4">
+              <img src="location.svg" alt="" width="15px" height="15px" />
+              <span class="text-white">Lorem ipsum dolor sit amet.</span>
+            </div>
+            <div class="my-4">
+              <svg
+                width="20px"
+                height="20px"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z"
+                  fill="#fff"
+                />
+              </svg>
+              <span class="text-white">+989378455</span>
+            </div>
+            <div class="my-4">
+              <svg
+                fill="#000000"
+                width="20px"
+                height="20px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="ms-2"
+              >
+                <path
+                  d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"
+                  fill="#fff"
+                />
+              </svg>
+              <span class="text-white">fm@gmail.com</span>
+            </div>
+          </div>
+          <!-- ستون سوم -->
+          <div style="width: 32vw">
+            <h5 class="text-white text-center">Lorem ipsum</h5>
+            <div class="d-flex justify-content-center flex-column">
+              <h6 class="text-white text-center my-3">Lorem ipsum</h6>
+              <h6 class="text-white text-center my-3">Lorem ipsum</h6>
+              <h6 class="text-white text-center my-3">Lorem ipsum</h6>
+              <h6 class="text-white text-center my-3">Lorem ipsum</h6>
+            </div>
+          </div>
+          <!-- ستون چهارم -->
+          <div style="width: 32vw">
+            <h5 class="text-white">Lorem ipsum</h5>
+            <p class="text-white my-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="btn btn-info">Lorem ipsum</button>
+          </div>
+        </div>
+        <hr style="color: wheat" />
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
