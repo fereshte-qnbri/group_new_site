@@ -1,0 +1,150 @@
+body{
+    background-color: #676f9d;
+}
+nav{
+    background-color: #2d3250;
+}
+.nav-link {
+    color: #f9b17a;
+}
+
+
+.carousel-item{
+    background-color: #2d3250;
+    color: white;
+    padding: 80px;
+    text-align: left;
+    margin-top: 10px;
+}
+h2{
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: #f9b17a;
+}
+.carousel-control-prev , 
+.carousel-control-next{
+    width: 5%;
+}
+.carousel-control-prev{
+    left: 10px;
+}
+.carousel-control-next{
+    right: 10px;
+}
+.lino-container{
+    display: flex;
+    align-items: center;
+    color: #f9b17a;
+}
+.lino-container a{
+    text-decoration: none;
+    color: #f9b17a;
+    margin: 0 10px;
+}
+.lino-container span{
+    margin: 0 10px;
+}
+
+
+
+.center-text h3{
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+.custom-card{
+    border: 15px solid #2d3250;
+    border-radius: 2px;
+    margin: 20px;
+
+}
+.custom-card img{
+    border: 2px solid #2d3250;
+    border-radius:5px ;
+    margin: 15px;
+    width: 150px;
+
+}
+.custom-card img:hover{
+    scale: 1.1;
+}
+.btn-custom{
+    background-color: #676f9d;
+    color: #2d3250;
+    border: 2px solid #2d3250;
+}
+.btn-custom:hover{
+    background-color: #f9b17a;
+    color: white;
+}
+.btn-custom1{
+    background-color: white;
+    color: #2d3250;
+    border: 2px solid #2d3250;
+    margin: 10px;
+}
+.btn-custom1:hover{
+    background-color: #2d3250;
+    color: white;
+}
+.footer{
+    display: grid;
+    /* grid-template-columns: repeat(4, 14fr); */
+    /* gap: 20px; */
+    background-color: #2d3250;
+    text-decoration-color: white;
+    padding: 20px;
+    color: #f9b17a;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    color: #f9b17a;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer .column{
+    margin-bottom: 20px;
+}
+/* .footer .contact-info i{
+    margin-right: 8px;
+} */
+.footer .row > div{
+    padding: 0 30px;
+}
+.footer .links a{
+    color: #f9b17a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer .links a span{
+    margin-left: 20px;
+    margin-right: 8px;
+    transform: rotate(180deg);
+}
+.footer .links a:hover{
+    scale: 1.1;
+}
+.contact-info {
+    margin: 15px 0;
+    font-size: 18px; 
+}
+.contact-info i {
+    margin-left: 10px; 
+}
+.phone {
+    color: #28a745; 
+}
+.instagram {
+    color: #e1306c; 
+}
+.telegram {
+    color: #0088cc; 
+}
