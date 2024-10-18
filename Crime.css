@@ -457,7 +457,7 @@ background-color: #0D0907 !important;
        
       .right-side img:nth-child(3) {
 
-        transform: translate(1rem, 21rem);
+        transform: translate(15rem, 12rem);
        
         width:8rem !important;
         height: 8rem !important;
@@ -503,7 +503,7 @@ background-color: #0D0907 !important;
        
        .left-side img:nth-child(1) {
 
-        transform: translate(19rem, 20rem);
+        transform: translate(15rem, 20rem);
        
         width:8rem !important;
         height: 8rem !important;
@@ -515,7 +515,7 @@ background-color: #0D0907 !important;
        
        .left-side img:nth-child(2) {
 
-        transform: translate(8rem, 1rem);
+        transform: translate(5rem, 1rem);
         width:10rem !important;
         height: 10rem !important;
 
@@ -524,7 +524,7 @@ background-color: #0D0907 !important;
        
       .left-side img:nth-child(3) {
 
-        transform: translate(-19rem,11rem);
+        transform: translate(-2rem,4rem);
         width:9rem !important;
         height: 9rem !important;
        
