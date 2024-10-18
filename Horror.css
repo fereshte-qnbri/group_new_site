@@ -529,7 +529,7 @@ background-color: #0D0907 !important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: row !important;
-    gap:27rem;
+    gap:16rem;
     color: #0D0907;
 
 
@@ -577,7 +577,8 @@ background-color: #0D0907 !important;
             flex-direction: column;
             justify-content: center;
             line-height:1.5rem;
-            width: 18rem;
+            width:70rem;
+margin-right: 9rem;
            margin-top: 1.5rem;
 
         }
@@ -591,7 +592,11 @@ background-color: #0D0907 !important;
 
 
     
+   .copyright{
 
+background-color: blue;
+width: 70rem;
+   }
 
     
 
