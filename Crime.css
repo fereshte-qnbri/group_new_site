@@ -944,6 +944,216 @@ background-color: #0D0907 !important;
 
 
 
+    .slide{
+      margin-top: 2rem;
+    width:30 !important;
+    height: 30rem !important;
+  
+    
+  }
+
+
+
+  .carousel-inner{
+    height: 30rem !important;
+  
+    width:30rem !important;
+  
+    
+
+  }
+
+
+
+
+
+  .text-in-one{
+    flex-wrap: wrap;
+
+    margin-bottom: 2rem;
+    width: 20rem;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 2rem auto;
+  
+  }
+
+  .img-one{
+       margin-top: 3rem;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-color: aqua;
+    width:10rem;
+    height: 10rem;
+    margin: 2rem auto;
+    
+    
+
+
+  }
+
+
+
+  .img-one img{
+
+    width:10rem;
+    height: 12rem;
+
+  }
+  
+
+
+  .text-in-two{
+    flex-wrap: wrap;
+
+    margin-bottom: 2rem;
+    width: 20rem;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 2rem auto;
+
+    
+  }
+
+  .img-two{
+       margin-top: 3rem;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-color: aqua;
+    width:10rem;
+    height: 10rem;
+    margin: 2rem auto;
+
+  }
+
+
+
+
+  .img-two img{
+
+    width:10rem;
+    height: 12rem;
+
+  }
+     
+
+
+
+
+  .text-in-three{
+    flex-wrap: wrap;
+
+    margin-bottom: 2rem;
+    width: 20rem;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 2rem auto;
+    
+  }
+
+  .img-three{
+       margin-top: 3rem;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-color: aqua;
+    width:10rem;
+    height: 10rem;
+    margin: 2rem auto;
+
+  }
+
+
+  .img-three img{
+
+ width:10rem;
+ height: 12rem;
+
+}
+   
+
+
+.carousel-control-prev{
+
+background-color: black;
+opacity: 1;
+height: 3rem;
+width: 3rem;
+margin-top:  85%;
+margin-left: 38%;
+border-radius: 1rem;
+
+}
+
+
+
+
+.carousel-control-next{
+
+background-color:black;
+opacity: 1;
+height: 3rem;
+width: 3rem;
+margin-top:  85%;
+margin-right: 38%;
+border-radius: 1rem;
+}
+
+
+.carousel-control-next ,  .carousel-control-prev:hover{
+background-color:black;
+opacity: 1;
+}
+
+.carousel-control-next-icon , .carousel-control-prev-icon{
+
+background-color:black;
+opacity: 1;
+  
+
+}
+
+
+.carousel-control-next-icon , .carousel-control-prev-icon :hover{
+
+background-color:black;
+opacity: 1;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
