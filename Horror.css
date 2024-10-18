@@ -425,11 +425,6 @@ background-color: #0D0907 !important;
 
 
 
-
-
-
-
-
         .box-three a {
 
             text-decoration: none;
@@ -594,7 +589,7 @@ margin-right: 9rem;
     
    .copyright{
 
-background-color: blue;
+
 width: 70rem;
    }
 
@@ -653,6 +648,168 @@ width: 70rem;
 
         
     }
+
+
+
+    .cards  .card img{
+        object-fit: cover !important;
+        width: 100% !important; 
+        height: 15rem !important;
+        transition: transform 0.5s ease;
+    } 
+
+
+
+
+    .cards .card:hover img {
+        transform:scale(1.1);
+
+
+    }
+
+
+    .cards .card{
+        background-color:  #2B2B2B !important;
+        color: #EDF0F2 !important;
+        height: 20rem !important;
+        overflow: hidden;
+        position: relative;
+        transition:transform  ease;
+        transition-duration: 0.4s;
+        margin-bottom: 2rem;
+        overflow: hidden !important;
+
+        
+
+    }
+
+
+
+    .cards    .card:hover{
+       
+       transform: scaleY(1.1) !important;
+       transform-origin: bottom;
+
+       
+
+    }
+
+
+   .cards{
+    background-color: black;
+
+
+
+   }
+
+
+
+ .card-body{
+   
+    display: flex !important;
+    justify-content:center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    padding: 1rem !important;
+    
+   
+
+    transition: transform  0.5s ease;
+    
+
+
+ }
+
+
+ .card:hover  .card-body{
+     transform:translateY(-2rem);
+     background-color: #2B2B2B;
+     width: 100% !important;
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+    
+
+
+ }
+
+
+    .icon-part{
+        color: #EDF0F2 !important;
+       opacity:0 !important;
+
+    
+    }
+
+
+
+    
+
+    .card:hover .icon-part{
+        color: #EDF0F2 !important;
+       opacity:1 !important;
+    
+    }
+     
+
+     
+    .icon-part a{
+        color: #EDF0F2 !important;
+        text-decoration: none;
+        width: 2rem !important;
+        height: 2rem !important;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      
+    
+      
+    }
+
+
+
+
+    .icon-part a:hover{
+
+        color:#2B2B2B !important;
+
+      background-color: #ffffff;
+    
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
