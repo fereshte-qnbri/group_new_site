@@ -233,9 +233,9 @@ background-color: #0D0907 !important;
 
           .slide{
               margin-top: 2rem;
-            width:40rem !important;
+            width:30 !important;
             height: 30rem !important;
-            
+          
             
           }
   
@@ -244,7 +244,7 @@ background-color: #0D0907 !important;
           .carousel-inner{
             height: 30rem !important;
           
-            width:40rem !important;
+            width:30rem !important;
           
             
 
@@ -263,7 +263,7 @@ background-color: #0D0907 !important;
             flex-direction: column;
             font-size: 1rem;
             margin: 2rem auto;
-            
+          
           }
 
           .img-one{
@@ -291,14 +291,6 @@ background-color: #0D0907 !important;
       
           }
           
-
-
-
-
-
-
-
-
     
       
           .text-in-two{
@@ -382,8 +374,8 @@ background-color: #0D0907 !important;
         opacity: 1;
         height: 3rem;
         width: 3rem;
-        margin-top:  65%;
-        margin-left: 42%;
+        margin-top:  85%;
+        margin-left: 38%;
         border-radius: 1rem;
        
        }
@@ -397,8 +389,8 @@ background-color: #0D0907 !important;
         opacity: 1;
         height: 3rem;
         width: 3rem;
-        margin-top:  65%;
-        margin-right: 42%;
+        margin-top:  85%;
+        margin-right: 38%;
         border-radius: 1rem;
        }
 
@@ -430,50 +422,56 @@ background-color: #0D0907 !important;
        .right-side{
 
         height: 30rem!important;
-         background-color: black;
+      
         
 
        }
+
+
+
+       .right-side img:nth-child(1) {
+
+        transform: translate(14rem, 1rem);
+        width:10rem !important;
+        height: 10rem !important;
+       
+
+      }
+
+
+
 
 
         
 
        
        .right-side img:nth-child(2) {
+        
+        transform: translate(-10rem, 12rem);
+        width:9rem !important;
+        height: 9rem !important;
 
-        transform: translate(7rem, 8rem);
-        background-color: black;
-       
 
       }
 
        
       .right-side img:nth-child(3) {
 
-        transform: translate(-0.5rem, 10rem);
-        background-color: black;
+        transform: translate(1rem, 21rem);
        
+        width:8rem !important;
+        height: 8rem !important;
+
 
       }
 
 
-
-
-
-
-
-
-
-
-
-
-
        .right-side img {
 
-        width:10rem !important;
-        height: 10rem !important;
+        width:9rem !important;
+        height: 9rem !important;
         object-fit: cover;
-        
+        border-radius: 1rem;
 
 
        }
@@ -483,7 +481,7 @@ background-color: #0D0907 !important;
        .left-side{
 
         height: 30rem!important;
-        background-color: aqua;
+     
        }
 
 
@@ -491,10 +489,10 @@ background-color: #0D0907 !important;
 
        .left-side img {
 
-        width: 10rem;
-        height: 10rem;
+        width: 9rem;
+        height: 9rem;
         object-fit: cover ;
-       
+        border-radius: 1rem;
 
 
        }
@@ -502,6 +500,36 @@ background-color: #0D0907 !important;
 
 
 
+       
+       .left-side img:nth-child(1) {
+
+        transform: translate(19rem, 20rem);
+       
+        width:8rem !important;
+        height: 8rem !important;
+       
+
+      }
+
+
+       
+       .left-side img:nth-child(2) {
+
+        transform: translate(8rem, 1rem);
+        width:10rem !important;
+        height: 10rem !important;
+
+      }
+
+       
+      .left-side img:nth-child(3) {
+
+        transform: translate(-19rem,11rem);
+        width:9rem !important;
+        height: 9rem !important;
+       
+
+      }
 
 
 
@@ -517,7 +545,25 @@ background-color: #0D0907 !important;
 
 
 
-        .fofo{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .fofo{
             margin-top: 0.5rem;
             /* background:url('https://graveplotpodcast.com/wp-content/uploads/2016/08/Screen-Shot-2016-08-16-at-5.29.14-AM.jpg') center no-repeat; */
             /* background-size: cover; */
@@ -786,8 +832,6 @@ background-color: #0D0907 !important;
         }
 
 
-
-    
 
 
     
